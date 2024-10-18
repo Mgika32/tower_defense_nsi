@@ -10,6 +10,7 @@ class Player:
         self.in_life = True
     
     def take_damage(self, enemy):
+        '''remove life if enemy touch the castle '''
         self.vie -= enemy.damage
     
     def set_money(self, enemy):
